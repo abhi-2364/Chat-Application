@@ -28,10 +28,6 @@ app.use("/api/v1/user",userRoute);
 app.use("/api/v1/message",messageRoute);
 
 // http://localhost:8000/api/v1/user/register
-
-
-
-
 app.listen( PORT, ()=>{
     connectDB();
    console.log(`Server listen at port ${PORT}`);
